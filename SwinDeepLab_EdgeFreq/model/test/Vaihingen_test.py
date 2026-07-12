@@ -20,7 +20,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ================= 导入你的模型 =================
-PROJECT_ROOT = r'/home/rjxy02/data/DeepLab_better/model2'
+PROJECT_ROOT = r'.../model'
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
