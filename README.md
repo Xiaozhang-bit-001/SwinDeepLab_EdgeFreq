@@ -42,3 +42,38 @@ SwinDeepLab-EdgeFreq achieves state-of-the-art segmentation performance on ISPRS
 ---
 
 ## 📁 Project Structure
+
+---
+
+## ⚙️ Installation
+
+### Requirements
+
+- Python 3.9+
+- PyTorch 2.5.1
+- CUDA 12.4 (recommended for GPU acceleration)
+- Key dependencies:
+  - `einops` for tensor rearrangement
+  - `numpy` for numerical computation
+  - `opencv-python` for image processing
+  - `matplotlib` for result visualization
+  - `scikit-learn` for metric calculation
+  - `tqdm` for progress bar
+  - `tensorboardX` for training logging
+
+### Setup Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Xiaozhang-bit-001/SwinDeepLab_EdgeFreq.git
+cd SwinDeepLab_EdgeFreq
+
+# 2. Create conda environment (optional but recommended)
+conda create -n swindeeplab python=3.9
+conda activate swindeeplab
+
+# 3. Install PyTorch with CUDA support
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu124
+
+# 4. Install other dependencies
+pip install einops numpy opencv-python matplotlib scikit-learn tqdm tensorboardX
