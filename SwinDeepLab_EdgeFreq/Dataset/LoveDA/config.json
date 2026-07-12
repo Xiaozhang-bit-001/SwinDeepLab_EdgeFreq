@@ -1,0 +1,32 @@
+{
+    "root_path": ".../Dataset/LoveDA/npz_data_all",
+    "dataset": "...",
+    "list_dir": ".../Dataset/LoveDA/lists_txt",
+    "num_classes": 6,
+    "max_iterations": 30000,
+    "max_epochs": 120,
+    "batch_size": 8,
+    "n_gpu": 1,
+    "deterministic": 1,
+    "base_lr": 0.01,
+    "img_size": 256,
+    "seed": 1234,
+    "n_skip": 3,
+    "vit_name": "new",
+    "vit_patches_size": 16,
+    "model_name": "All",
+    "data_stats_path": ".../Dataset/LoveDA/rgb_data_stats_improved.npz",
+    "final_result_dir": ".../TestResults",
+    "save_best_only": false,
+    "in_channels": 3,
+    "is_pretrain": false,
+    "train_finish_time": "20251215_165141",
+    "dataset_stats": {
+        "mean": [
+            72.6849, 79.6768, 77.6912
+        ],
+        "std": [
+            39.2225, 34.5153, 33.0713
+        ]
+    }
+}
