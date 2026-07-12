@@ -1,0 +1,36 @@
+{
+    "root_path": "...\\datasets\\Potsdam\\npz_data_RGB_improved",
+    "dataset": "...",
+    "list_dir": "...\\datasets\\Potsdam\\lists_txt_RGB_improved",
+    "num_classes": 6,
+    "max_iterations": 30000,
+    "max_epochs": 150,
+    "batch_size": 8,
+    "n_gpu": 1,
+    "deterministic": 1,
+    "base_lr": 0.01,
+    "img_size": 256,
+    "seed": 1234,
+    "n_skip": 3,
+    "vit_name": "new",
+    "vit_patches_size": 16,
+    "model_name": "All",
+    "data_stats_path": "...\\datasets\\Potsdam\\rgb_data_stats_improved.npz",
+    "final_result_dir": "...\\ComparedModels\\FinalResultsP",
+    "save_best_only": false,
+    "in_channels": 3,
+    "is_pretrain": false,
+    "train_finish_time": "20251209_114335",
+    "dataset_stats": {
+        "mean": [
+            86.46060465632259,
+            92.49468889070344,
+            85.84595651712503
+        ],
+        "std": [
+            33.76141836828106,
+            33.83869920133589,
+            36.54814203502969
+        ]
+    }
+}
