@@ -34,7 +34,7 @@ parser.add_argument('--max_iterations', type=int, default=60000, help='最大迭
 parser.add_argument('--resume_path', type=str,
                     default=r'',
                     help='指定要恢复的最优权重文件路径')
-parser.add_argument('--max_epochs', type=int, default=150, help='最大训练轮数')
+parser.add_argument('--max_epochs', type=int, default=120, help='最大训练轮数')
 parser.add_argument('--batch_size', type=int, default=8, help='单卡batch size（命令行指定时生效）')
 parser.add_argument('--n_gpu', type=int, default=1, help='GPU数量（固定单卡）')
 parser.add_argument('--deterministic', type=int, default=1, help='是否启用确定性训练')
@@ -53,7 +53,7 @@ parser.add_argument('--dataset_name', type=str, default='LoveDA_256',
 
 # 新增：模型选择参数（核心改造）
 parser.add_argument('--model_name', type=str,
-                    default='DeepLabReg',help='your model name')
+                    default='FGH_DeepLab',help='your model name')
 
 # 数据统计文件路径
 parser.add_argument('--data_stats_path', type=str,
@@ -121,7 +121,7 @@ if __name__ == "__main__":
     ablation_tag = ""
 
     # 初始化模型（根据model_name选择，保持原逻辑）
-    if args.model_name == 'DeepLabReg':
+    if args.model_name == 'FGH_DeepLab':
         net = DeepLabReg(
             num_classes=args.num_classes,
             input_res=256,
