@@ -1,11 +1,11 @@
-# SwinDeepLab-EdgeFreq: Remote Sensing Image Semantic Segmentation with Swin Transformer and Frequency Domain Edge Enhancement
+# FGH-DeepLab: Remote Sensing Image Semantic Segmentation with Swin Transformer and Frequency Domain Edge Enhancement
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1-EE4C2C.svg)](https://pytorch.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-12.4-76B900.svg)](https://developer.nvidia.com/cuda-toolkit)
 [![Python](https://img.shields.io/badge/Python-3.9-3776AB.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Official implementation of **SwinDeepLab-EdgeFreq**, a hybrid semantic segmentation network for high-resolution remote sensing imagery. Building upon the Swin Transformer backbone with enhanced atrous spatial pyramid pooling, spatially aligned guided decoding, and edge-frequency joint refinement, the proposed method effectively alleviates internal semantic fracture of large-scale ground objects and edge blurring of artificial facilities, achieving state-of-the-art performance on multiple public remote sensing benchmarks.
+Official implementation of **FGH-DeepLab**, a hybrid semantic segmentation network for high-resolution remote sensing imagery. Building upon the Swin Transformer backbone with enhanced atrous spatial pyramid pooling, spatially aligned guided decoding, and edge-frequency joint refinement, the proposed method effectively alleviates internal semantic fracture of large-scale ground objects and edge blurring of artificial facilities, achieving state-of-the-art performance on multiple public remote sensing benchmarks.
 
 > 📄 **Paper**: *Combining Swin Transformer with Multi-Dimensional Feature Enhancement for Remote Sensing Image Semantic Segmentation* (under review)
 > 👨‍💻 **Author**: Junming Zhang
@@ -21,7 +21,7 @@ Official implementation of **SwinDeepLab-EdgeFreq**, a hybrid semantic segmentat
 | ISPRS Vaihingen | **86.36**| **92.56** | 92.18  |
 | LoveDA          | **85.27**| **92.01** | 91.45  |
 
-SwinDeepLab-EdgeFreq achieves state-of-the-art segmentation performance on ISPRS Potsdam, ISPRS Vaihingen and LoveDA benchmarks, consistently outperforming DC-Swin, LOGCAN++, SwinUNet, DeepLabV3+, UMFormer, CMTFNet, DANet and BiCoR-Seg.
+FGH-DeepLab achieves state-of-the-art segmentation performance on ISPRS Potsdam, ISPRS Vaihingen and LoveDA benchmarks, consistently outperforming DC-Swin, LOGCAN++, SwinUNet, DeepLabV3+, UMFormer, CMTFNet, DANet and BiCoR-Seg.
 
 ---
 
